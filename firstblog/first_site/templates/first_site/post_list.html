@@ -1,0 +1,23 @@
+{% extends 'first_site/base.html' %}
+{% block content %}
+<div class="centerstage">
+  <div class="row">
+    {% for post in post_list %}
+      <div class="col-6">
+       <div class="card" style="width:18rem;">
+         <img  src="{{post.image.url}}" class="card-img-top" alt="image not found">
+         <div class="card-body">
+          <h5 class="card-title">{{post.title}}</h5>
+          <p class="card-text">{{post.author}}</p>
+          <p class="card-text">Comments: {{post.approve_comments.count}}</p>
+          <a href="{% url 'post_detail' pk=post.pk%}" class="btn cust_btn">Read More</a>
+       </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+</div>
+
+{% endblock %}

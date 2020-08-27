@@ -1,0 +1,36 @@
+body{
+    background-color: #b88b4a;
+}
+.tab{
+  padding: 20px;
+  text-align: center;
+}
+.box{
+  background-color: #232323;
+  opacity: 0.85;
+  height: 420px;
+  width: 350px;
+  padding: 20px;
+  border: 5px solid #b88b4a;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+
+}
+.head{
+  padding:5px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn{
+  text-align: center;
+  height:;
+  width: 250px;
+  background-color: white;
+  margin-top: 50px;
+  padding: 5px;
+
+}
