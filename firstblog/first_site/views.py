@@ -24,6 +24,7 @@ class PostListView(ListView):
 class PostDetailView(DetailView):
     model = Post
 
+
 class CreatePostView(LoginRequiredMixin,CreateView):
     login_url = '/login/'
     redirect_field_name = 'first_site/post_detail.html'
