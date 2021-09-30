@@ -1,40 +1,39 @@
-body{
+body {
   background-color: #b88b4a;
-
 }
-.nav-item{
-font-weight: bold;
+.nav-item {
+  font-weight: bold;
 }
-#header{
+#header {
   width: 100%;
   height: 150px;
   background-color: #232323;
   color: white;
   text-align: center;
 }
-.head{
+.head {
   padding: 47px;
   text-align: center;
 }
 /* carousel */
-.jumbo{
+.jumbo {
   background-color: #99582a;
   padding: 20px;
   text-align: center;
   border: 10px solid #99582a;
   border-radius: 10px;
 }
-.jumbo-text{
+.jumbo-text {
   padding-top: 10px;
 }
-#News{
-  border-top:0.1em solid black;
+#News {
+  border-top: 0.1em solid black;
   border-bottom: 0.1em solid black;
   width: 100%;
   text-align: center;
   margin-top: 10px;
 }
-.foot_contain{
+.foot_contain {
   bottom: 0;
   background-color: #b88b4a;
   /* border: solid 5px #b88b4a; */
@@ -42,15 +41,15 @@ font-weight: bold;
   height: 40px;
   text-align: center;
   padding: 5px;
-  margin:30px;
+  margin: 30px;
 }
 
 /* home.html p and quote */
-#quote{
-  font-family: 'Noto Serif', serif;
+#quote {
+  font-family: "Noto Serif", serif;
 }
-p{
-  font-family: 'PT Serif', serif;
+p {
+  font-family: "PT Serif", serif;
   font-size: 15px;
 }
 
@@ -59,24 +58,24 @@ p{
   width: 500px;
   display: block;
   text-align: end;
-  margin:auto;
+  margin: auto;
   align-content: flex-end;
 }
 
 .roles {
-    font-size: 30px;
-    height: 50px;
-    vertical-align: middle;
-    overflow: hidden;
+  font-size: 30px;
+  height: 50px;
+  vertical-align: middle;
+  overflow: hidden;
 }
 
 .roles div {
-    height: 50px;
-    transition: margin-top 1s ease-in-out;
+  height: 50px;
+  transition: margin-top 1s ease-in-out;
 }
 
 /* login.html css */
-.box{
+.box {
   background-color: #4e3939;
   opacity: 0.85;
   height: 500px;
@@ -88,31 +87,29 @@ p{
   margin-top: 50px;
   text-align: center;
   color: white;
-
 }
-#btn{
+#btn {
   text-align: center;
   width: 250px;
   background-color: white;
   margin-top: 50px;
   padding: 5px;
-
 }
-.box1{
-  padding:15px;
+.box1 {
+  padding: 15px;
   font-family: sans-serif;
   text-align: center;
 }
-.tab{
+.tab {
   padding: 20px;
   text-align: center;
 }
-.card{
-  background-color:#99582a;
-  border:10px solid #b88b4a;
+.card {
+  background-color: #99582a;
+  border: 10px solid #b88b4a;
   border-radius: 20px;
 }
-.cust_btn{
+.cust_btn {
   border: 0.1px solid #99582a;
   background-color: #915b5b;
   border-radius: 10px;
