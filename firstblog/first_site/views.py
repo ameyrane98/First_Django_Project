@@ -87,3 +87,11 @@ def add_comment_to_post(request,pk):
     else:
         form = CommentForm()
     return render(request,'first_site/comment_form.html',{'form':form})
+
+@login_required    
+def logout_view(request):
+    # Logout the user using Django's built-in logout function
+    from django.contrib.auth import logout
+    logout(request)
+    # Redirect to a desired URL after logout
+    return redirect('home') 

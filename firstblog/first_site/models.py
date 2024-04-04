@@ -1,7 +1,9 @@
 from django.db import models
 from django.utils import timezone
 from django.urls import reverse
+from django.db import connection
 # Create your models here.
+
 
 
 class Post(models.Model):
